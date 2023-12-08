@@ -1,0 +1,25 @@
+{
+	"name": "datafactory-jeremy",
+	"properties": {
+		"encryption": {
+			"identity": {
+				"userAssignedIdentity": "/subscriptions/18b4ecf9-0880-480a-8763-e11f01c1eab3/resourcegroups/databricks/providers/Microsoft.ManagedIdentity/userAssignedIdentities/storagemanagedidentity"
+			},
+			"VaultBaseUrl": "https://jeremykeystorage.vault.azure.net",
+			"KeyName": "storage",
+			"KeyVersion": "b1d3e67fbc2645aba202238c56751c5a"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "a0745eda-8932-4f4b-b418-4e34f288d11a",
+		"tenantId": "e5399888-2596-4022-8259-f8b62ee876bb",
+		"userAssignedIdentities": {
+			"/subscriptions/18b4ecf9-0880-480a-8763-e11f01c1eab3/resourcegroups/databricks/providers/Microsoft.ManagedIdentity/userAssignedIdentities/storagemanagedidentity": {
+				"clientId": "54e06028-4208-437f-b56c-24b1efb462fc",
+				"principalId": "3f0f6c5a-54c5-4874-88a0-c071c12bea0d"
+			}
+		}
+	}
+}
