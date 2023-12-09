@@ -1,0 +1,36 @@
+{
+	"name": "JsonRadio2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "csvjson.json",
+				"folderPath": "test",
+				"container": "carpet1"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Key": {
+					"type": "string"
+				},
+				"Fecha": {
+					"type": "string"
+				},
+				"Día de la semana": {
+					"type": "string"
+				},
+				"Trimestre": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
