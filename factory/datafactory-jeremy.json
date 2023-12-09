@@ -8,6 +8,9 @@
 			"VaultBaseUrl": "https://jeremykeystorage.vault.azure.net",
 			"KeyName": "storage",
 			"KeyVersion": "b1d3e67fbc2645aba202238c56751c5a"
+		},
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
 		}
 	},
 	"location": "eastus",
